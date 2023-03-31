@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 2</title>
+    <link rel="stylesheet" href="bisa.css" />
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    <nav class="navbar">
+      <div class="navbar-menu">
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#portofolio">Portofolio</a>
+      </div>
+    </nav>
+ <div>
+    <div class="c-biodata" >
+      <img src="profil.jpg" alt="Foto Profil" />
+      <div class="c-nama">
+        <h3 id="value-nama">Ivan Simangunsong</h3>
+        <p id="value-role">Front End Developer</p>
+      </div>
+
+      <div class="c-button" >
+        <button onclick="showForm()" class="c-button-1">Edit</button>
+        <button type="button" class="c-button-2">Resume</button>
+      </div>
+
+      <div class="c-data">
+        <pre>Availability   :  </pre>
+        <pre >Age            : </pre>
+        <pre >Location       : </pre>
+        <pre >Experience     : </pre>
+        <pre >Email          : </pre>
+      </div>
+
+      <div class="c-data-2">
+        <pre id="value-availability">Full Time</pre>
+        <pre id="value-age">20</pre>
+        <pre  id="value-location">Sumatera Utara</pre>
+        <pre  id="value-year-experience">2</pre>
+        <pre   id="value-email">ivansimangunsong17@gmail.com</pre>
+      </div>
+    </div>
+<div class="hideForm" id="c-Myform">
+  <div class="c-form" >
+    <form id="myForm">
+      <label for="name">Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Your Name..." /><br /><br />
+
+      <label for="role">Role</label>
+      <input type="text" id="frole" name="frole" placeholder="Your Role..." /><br /><br />
+
+      <label for="availability">Availability</label>
+      <input type="text" id="favailability" name="favailability" placeholder="Your Availability..." /><br /><br />
+
+      <label for="age"> Age</label>
+      <input type="number" id="fage" name="fage" placeholder="Your Age..." /><br />
+      <br />
+
+      <label for="location">Location</label>
+      <input type="text" id="flocation" name="flocation" placeholder="Your Location..." /><br /><br />
+
+      <label for="year-experience"> Year Experience</label>
+      <input type="number" id="fyear-experience" name="fyear-experience" placeholder="Your Year Experience..." /><br /><br />
+
+      <label for="email">Email</label>
+      <input type="email" id="femail" name="femail" placeholder="Your Email..." /><br /><br />
+
+      <button type="button" onclick="formSubmit()">SUBMIT</button>
+    </form>
+  </div>
+</div>
+
+  </body>
+  <script src="profil.js"></script>
+</html>

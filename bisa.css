@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #ffff;
+  box-shadow: 2px 1px 8px rgb(12, 32, 190);
+}
+
+.navbar .navbar-menu a {
+  color: black;
+  justify-content: space-around;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff;
+}
+
+.navbar .navbar-menu a:hover {
+  color: rgb(117, 115, 113);
+}
+
+.c-biodata {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  height: 200px;
+  margin: 50px 200px 20px 200px;
+  box-shadow: 2px 1px 8px rgb(12, 32, 190);
+}
+
+.c-biodata img {
+  border-radius: 50%;
+  width: 165px;
+  height: 175px;
+  margin-left: 40px;
+}
+
+.c-biodata .c-nama {
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  font-size: 15px;
+  width: 275px;
+  margin-left: 10px;
+  margin-top: -70px;
+}
+
+.c-biodata .c-nama p {
+  margin-left: 3px;
+  padding-top: 15px;
+}
+
+.c-biodata .c-button .c-button-1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-radius: 2px;
+  background-color: #74a3e8;
+  height: 35px;
+  width: 75px;
+  font-family: Arial;
+  margin-left: -265px;
+  margin-top: 80px;
+}
+
+.c-biodata .c-button .c-button-1:hover {
+  background-color: rgb(77, 142, 228);
+  transition: 0.2s;
+}
+
+.c-biodata .c-button .c-button-2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-radius: 2px;
+  background-color: #ffffff;
+  height: 35px;
+  width: 75px;
+  font-family: Arial;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.c-biodata .c-button .c-button-2:hover {
+  background-color: rgb(77, 142, 228);
+  transition: 0.2s;
+}
+
+.c-biodata .c-data {
+  margin-top: -20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.c-biodata .c-data pre {
+  padding-top: 7px;
+}
+
+.c-biodata .c-data-2 {
+  width: 240px;
+  margin-top: -20px;
+}
+
+.c-biodata .c-data-2 pre {
+  padding-top: 7px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+.hideForm {
+  display: none;
+}
+
+.c-form {
+  padding: 40px;
+  margin: auto 200px 20px 200px;
+  background-color: #ffffff;
+  box-shadow: 2px 1px 8px rgb(12, 32, 190);
+}
+
+label {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.c-form button {
+  color: rgb(0, 0, 0);
+  background-color: #74a3e8;
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+}
+
+.c-form button:hover {
+  background-color: rgb(77, 142, 228);
+  transition: 0.1s;
+}
